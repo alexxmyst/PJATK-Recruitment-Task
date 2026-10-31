@@ -1,0 +1,43 @@
+{
+  "fold_seed": 73,
+  "reference_training": "target=0 rows in training partition only; 3 inner seller folds",
+  "description_product_coverage": 0.9575,
+  "product_phrases": 180,
+  "main_quantity_coverage": 0.999375,
+  "parsed": {
+    "fold_auc": [
+      0.925086984809482,
+      0.9412491646140039,
+      0.9408193576227919,
+      0.9357986350630775,
+      0.9326843482556509
+    ],
+    "mean_auc": 0.9351276980730011,
+    "std_auc": 0.005951527176416935,
+    "oof_auc": 0.9347262365362667,
+    "oof_ap": 0.8728574893184783
+  },
+  "reconstruction": {
+    "fold_auc": [
+      0.9845360338698576,
+      0.9939378663764297,
+      0.9920666143281578,
+      0.9914630207588667,
+      0.9904805137585281
+    ],
+    "mean_auc": 0.990496809818368,
+    "std_auc": 0.0031865290046124467,
+    "oof_auc": 0.9899801448344119,
+    "oof_ap": 0.978605648423891
+  },
+  "clean_wireless_headphone_categories": {
+    "wireless headphones": {
+      "audio": 88,
+      "computers": 23
+    },
+    "over-ear bluetooth headset": {
+      "audio": 94,
+      "computers": 32
+    }
+  }
+}

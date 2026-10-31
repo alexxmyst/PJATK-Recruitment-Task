@@ -1,0 +1,7 @@
+# Versions used for the validated local run (Python 3.13.9).
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+catboost==1.2.10
+joblib==1.5.2

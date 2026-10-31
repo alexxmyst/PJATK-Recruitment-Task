@@ -1,0 +1,32 @@
+{
+  "fold_seed": 42,
+  "reference_training": "target=0 rows in training partition only; 3 inner seller folds",
+  "description_product_coverage": 0.9575,
+  "product_phrases": 180,
+  "main_quantity_coverage": 0.999375,
+  "provided_baseline": {
+    "fold_auc": [0.6982818790740031, 0.6809196562491157, 0.7184538996771441, 0.7168005389739747, 0.7226050100565289],
+    "mean_auc": 0.7074121968061533,
+    "std_auc": 0.01565949649553541,
+    "oof_auc": 0.7081412156965212,
+    "oof_ap": 0.5706194682509156
+  },
+  "parsed": {
+    "fold_auc": [0.9245470667177915, 0.9240113074293836, 0.9457182356156542, 0.9316060611340524, 0.9440707957136198],
+    "mean_auc": 0.9339906933221004,
+    "std_auc": 0.009312361777554042,
+    "oof_auc": 0.9345307043512124,
+    "oof_ap": 0.8723932225843541
+  },
+  "reconstruction": {
+    "fold_auc": [0.9913038008052147, 0.9894747516673428, 0.9914538497664722, 0.9887739568188403, 0.990506580506011],
+    "mean_auc": 0.9903025879127763,
+    "std_auc": 0.00103840935670442,
+    "oof_auc": 0.9902062038418463,
+    "oof_ap": 0.9787682171157304
+  },
+  "clean_wireless_headphone_categories": {
+    "wireless headphones": {"audio": 88, "computers": 23},
+    "over-ear bluetooth headset": {"audio": 94, "computers": 32}
+  }
+}
